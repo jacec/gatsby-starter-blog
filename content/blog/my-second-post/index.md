@@ -12,4 +12,12 @@ egg yolk will be less rich."?
 
 Yeah, I didn't either.
 
-```some code ```
+```
+some code
+
+console.log("hello, world");
+
+totes
+
+seer
+```

@@ -65,7 +65,7 @@ class Layout extends React.Component {
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://www.gatsbyjs.org">Gatsby</a> and running on <a href="https://aws.amazon.com/amplify/">AWS Amplify</a>
         </footer>
       </div>
     )

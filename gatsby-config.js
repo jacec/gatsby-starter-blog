@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
+    title: `Croucher's Blog`,
+    author: `Jason Croucher`,
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `jason_croucher`,
     },
   },
   plugins: [
@@ -57,10 +57,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `Croucher's Blog`,
         short_name: `GatsbyJS`,
         start_url: `/`,
-        background_color: `#ffffff`,
+        background_color: `#000000`,
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
@@ -72,6 +72,12 @@ module.exports = {
       options: {
         pathToConfigModule: `src/utils/typography`,
       },
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        sitemapSize: 5000
+      }
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
